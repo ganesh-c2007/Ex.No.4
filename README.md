@@ -1,50 +1,133 @@
-# Ex.No.4-EXP 4 Generate the Prompt and evaluate that for following prompt patterns - Zero-shot Prompting.•	Few-shot Prompting - Chain of Thought -	Persona Pattern - Reverse Prompting - Graph Prompting - Active Prompting
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To write the prompt for the following prompt types and compare that with different AI tools and evaluate that using any one evaluation method (Ex. Rubrics). Zero-shot Prompting.•	Few-shot Prompting - Chain of Thought -	Persona Pattern - Reverse Prompting - Graph Prompting - Active Prompting 
+# EX.NO.4 – GENERATE AND EVALUATE DIFFERENT PROMPT PATTERNS
 
-### Explanation - Any one use case from Unit 5 and write the prompt for that with the unit 2 Prompt types given above.
+DATE: 05.11.2026 
 
-Procedure:
-1.	Define the Scenario and Use Case:
-Scenario:
-The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system will utilize IoT devices and embedded controllers to automate equipment, monitor performance, and enable predictive maintenance. The goal is to streamline the production process, minimize downtime, and enhance energy efficiency.
-Target Audience:
-Manufacturing companies, specifically in sectors like automotive, electronics, and food processing, where automation can significantly improve productivity.
+REGISTER NUMBER: 212225230071 
 
-Main Objectives:
+## AIM
 
-•	Improve production efficiency by 30%.
-•	Minimize machinery downtime with predictive maintenance.
-•	Enable real-time monitoring and remote control of manufacturing systems.
-•	Reduce energy consumption by optimizing processes.
- 
-2.	Identify Prompt Patterns for Each Design Aspect:
-Idea Generation Prompts:
+To generate prompts using Zero-shot, Few-shot, Chain of Thought, Persona, Reverse, Graph, and Active Prompting techniques and evaluate their effectiveness using a rubric.
 
-Comparative Analysis Prompt
-Definition: Asking for a comparison between two or more concepts, often highlighting similarities and differences.
-•	"Compare and contrast deep learning and machine learning."
-•	"How do renewable and non-renewable energy sources differ?"
+## EXPLANATION
 
-Experiential Perspective Prompt:
-> 	“As a software engineer, what are the benefits of using cloud computing in your projects?”
->  “From a student’s perspective, describe the challenges of online learning.”
+Prompt Engineering is the process of designing effective instructions to obtain meaningful responses from AI tools such as ChatGPT, Gemini, and Copilot.
 
-Everyday Functioning Prompts:
-*	  “Describe the role of machine learning in everyday apps like YouTube or Netflix."
-*	 	“How is encryption used in daily life when sending WhatsApp messages?”
+## SCENARIO
 
-Universal Prompt Structures:
-^ 	“Explain [concept] in simple terms with an example.”
-^  “Explain the process of [task] step by step.”
+**IoT-Based Smart Manufacturing Automation**
 
-Prompt Size Limitations:
-&  	“Translate this 5000-word essay into Tamil.”
-→ Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
-&  “Give me 50 examples of AI applications.”
-→ Adjust for size: “Give me 10 AI applications at a time.”
+The manufacturing industry aims to improve production efficiency by 30%, reduce machine downtime, enable real-time monitoring, and reduce energy consumption using IoT devices and embedded controllers.
 
+## PROCEDURE
 
+### 1. Zero-shot Prompting
 
-# Result: The various types of Prompts are executed successfully with generated the report.
+**Definition:** Giving instructions without examples.
+
+**Prompt:**
+"Explain how IoT automation improves manufacturing efficiency and reduces machine downtime."
+
+**Output:**
+IoT automation uses sensors and controllers to monitor machines, detect failures, improve production, and reduce energy consumption.
+
+### 2. Few-shot Prompting
+
+**Definition:** Providing examples before asking the AI to perform a task.
+
+**Prompt:**
+"Problem: Machine overheating. Solution: Install temperature sensors.
+
+Problem: High energy consumption. Solution: Use energy monitoring.
+
+Now solve: Frequent machine breakdowns. Provide a solution."
+
+**Output:**
+Install vibration sensors and predictive maintenance software to detect machine problems before failure.
+
+### 3. Chain of Thought Prompting
+
+**Definition:** Asking AI to provide a structured, step-by-step explanation.
+
+**Prompt:**
+"Explain step by step how IoT automation can improve manufacturing efficiency by 30%, reduce downtime, and save energy."
+
+**Output:**
+1. Identify manufacturing problems.
+2. Install IoT sensors.
+3. Connect sensors to controllers.
+4. Monitor machine performance.
+5. Implement predictive maintenance.
+6. Optimize energy consumption.
+7. Evaluate production efficiency.
+
+### 4. Persona Pattern
+
+**Definition:** Assigning a specific role to the AI.
+
+**Prompt:**
+"Act as an Industrial Automation Engineer. Design an IoT-based manufacturing system using sensors, embedded controllers, and predictive maintenance."
+
+**Output:**
+The system uses IoT sensors, PLCs, embedded controllers, and monitoring software to collect machine data, detect faults, and improve production efficiency.
+
+### 5. Reverse Prompting
+
+**Definition:** Working backward from a desired result to identify requirements and develop a suitable prompt.
+
+**Prompt:**
+"I want to reduce machine downtime and improve production efficiency. Identify the requirements and create an effective prompt for designing an IoT automation system."
+
+**Output:**
+Required components include sensors, embedded controllers, IoT gateways, monitoring software, and predictive maintenance algorithms.
+
+### 6. Graph Prompting
+
+**Definition:** Representing information using nodes and relationships.
+
+**Prompt:**
+"Create a graph showing how IoT sensors, controllers, monitoring systems, and predictive maintenance work together in manufacturing."
+
+**Output:**
+
+<CodeBlock language="mermaid" editable>
+flowchart TD
+A[Manufacturing Machines] --> B[IoT Sensors]
+B --> C[Embedded Controllers]
+C --> D[Monitoring System]
+D --> E[Predictive Maintenance]
+E --> F[Maintenance Alerts]
+</CodeBlock>
+
+### 7. Active Prompting
+
+**Definition:** Asking questions to collect missing information before generating a solution.
+
+**Prompt:**
+"Before designing an IoT manufacturing system, ask five questions about machine types, production capacity, downtime, budget, and energy consumption."
+
+**Output:**
+AI asks questions about machine types, production capacity, maintenance requirements, budget, and electricity consumption to prepare a customized solution.
+
+## EVALUATION USING RUBRIC
+
+Each prompt is evaluated out of 5 marks based on clarity, relevance, completeness, accuracy, and usefulness.
+
+| Prompt Pattern | Score / 25 |
+|---|---:|
+| Zero-shot | 18 |
+| Few-shot | 20 |
+| Chain of Thought | 24 |
+| Persona | 23 |
+| Reverse | 23 |
+| Graph | 23 |
+| Active | 23 |
+
+*Note: These are illustrative scores, not actual cross-platform test results.*
+
+## CONCLUSION
+
+The seven Prompt Engineering techniques were successfully applied to the smart manufacturing scenario. Each technique generated different types of responses based on the given instructions.
+
+## RESULT
+
+Thus, the prompts were successfully generated and evaluated using a rubric-based evaluation method.
